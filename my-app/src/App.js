@@ -1,16 +1,15 @@
-
 import React from "react";
 
-import Game from "./components/Game.jsx"
+import Game from "./components/Game.jsx";
 
 import "./styles/tic.css";
 
-function App(){
-  return(
+function App() {
+  return (
     <div>
-       <Game />
+      <Game />
     </div>
-  )
+  );
 }
 
 export default App;
